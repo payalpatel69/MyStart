@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    /* if we want to set flexbox property --> display: flex; 
+       by default flex-direction: row;  */
+    display: flex;
+    /* now use flexbox properties for -->> flex Container / flex Items.....  */
+    /*  -------------------------------  */
+
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+}
+
+#box3{
+    background-color: darkkhaki;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+}
+

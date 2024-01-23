@@ -1,0 +1,40 @@
+div{
+
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#box1{
+    position: static;
+    top: 200px;
+    /* bydefault position...No property will apply  */
+}
+
+#box2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#box3{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+#box4{
+    position: fixed;
+    top: 0px;
+    right:200px;
+}
+
+#box5{
+    position: sticky;
+    top: 30px;
+}
+
